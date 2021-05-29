@@ -1,0 +1,13 @@
+label {
+    font-weight: 400;
+    text-align: left;
+}
+
+select {
+    color:#555;
+    background-color: #fff;
+    border:1px solid #ccc;
+    padding:5px 10px;
+    font-size: 12px;
+    margin: 0px 2px 0px 2px;
+}
