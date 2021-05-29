@@ -30,8 +30,8 @@ function App() {
   //change postsPerPage
   const changePageSize = (size) => setPostsPerPage(size)
   return (
-    <div className="container mt-5">
-      <h1 className='text-primary mb-3'>My Blog</h1>
+    <div className="container">
+      <h1>My Blog</h1>
       <TestComponent/>
       <Filter changePageSize={changePageSize}/>
       <Posts posts={currentPosts} loading={loading} />

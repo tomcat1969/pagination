@@ -1,0 +1,7 @@
+.pagination li {
+    display: inline;  
+}
+
+li a {
+    margin-left: 5px;
+}
